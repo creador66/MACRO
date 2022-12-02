@@ -1,0 +1,374 @@
+/*===================================================*/
+:root {
+--BLA1:#ffffff;    /*COLOR BLANCO GLOBALES         */  
+}
+/*====================================================*/
+*{ 
+  /* border: solid 1px #000000;  */
+scroll-behavior: smooth;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+text-decoration: none;
+margin: auto; 
+padding: 0;
+margin-left: 0;
+margin-right: 0;
+list-style: none;
+}
+
+body {
+  background-color: #f6f5f5;
+  font-family: 'Poppins', sans-serif;
+}
+/* --------botones de tabla--------- */
+.div-contenedor-uno a,
+.div-contenedor-uno button{
+  border: none;
+  background-color: #55535300;
+  font-size: 15px;
+  font-weight: 300;
+  color: #030303;
+
+}
+
+
+button{
+  border: none;
+  background-color: #55535300;
+}
+
+input{
+  padding-left: 4px;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid rgba(12, 12, 12, 0.342);
+  transition: all 1s ease;
+  }
+  
+.principal{
+display: grid;
+grid-template-columns: 20% 80%;
+height: 100%;
+}
+.derecha{
+margin-top: 0;
+height: 100%;
+}
+.izquierda{
+ margin-top: 0;
+}
+.sidebar{
+top: 75px;
+position: sticky;
+}
+.sidebar h3{
+height: 60px;
+}
+
+/* -------- pestaña superior--------- */
+.pestaña-superior{
+width: 100%;
+display: flex;
+position: fixed;
+padding: 10px 20px 10px 20px;
+background-color: #ffffff;
+border-bottom: 1px solid #d3d3d3;
+z-index: 2;
+}
+.pestaña-superior h1{
+color: #030303;
+font-size: 29px;
+}
+.pestaña-superior h2{
+  color: #83b293;
+  margin-left: 10px;
+  font-weight: 100;
+  }
+.pestaña-superior button{
+  width: 100%;
+  border: none;
+  background-color: #55535300;
+display: flex;
+margin-left: 10px;
+font-size: 12px;
+color: #83b293;
+}
+.pestaña-superior i{
+  background: #83b293;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+}
+.pestaña-superior h4{
+margin-left: 5px;
+}
+.pestaña-superior h3{
+  width: 100%;
+  color: #222;
+  background-color: #fff;
+text-align: right;
+}
+/* -------- pestaña superior--------- */
+
+
+
+
+
+
+
+
+
+
+.menu-opciones h4:hover{
+  transform: translatex(2px);
+  transition: all 2s;
+}
+.eti-titulo h5{
+  margin-top: 5px;
+margin-bottom: 5px;
+display: block;
+}
+.menu-opciones h4{
+transition: all 2s;
+border: none;
+background-color: #fdfdfd;
+border-radius: 1px;
+box-shadow: 1px 1px 4px rgba(63, 62, 62, 0.267);
+padding: 4px 10px 4px 10px;
+color: #0a405f;
+}
+
+
+.menu-opciones{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.bot-barra{
+justify-content: right;
+display: flex;
+gap: 1rem;
+
+  }
+.btn_red-2{
+  color: #de5900;
+  font-size:25px;
+  box-shadow: 1px 1px 4px rgba(63, 62, 62, 0.267);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------  modal ------------------ */
+.modal_uno{
+  background: rgba(0,0,0,0.8);
+  display:none;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  position: fixed;
+  z-index:20000000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.contenido_modal {
+  padding: 40px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+/* -------------------  modal ------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ............................... */
+h1{
+font-size: 25px;
+}
+h2{
+font-size: 20px;
+}
+h3{
+font-size: 15px;
+}
+h4{
+font-size: 14px;
+font-weight: 200;
+}
+/* ............................... */
+
+
+
+tbody{
+width: 100%;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+/* ............................... */
+.espacio{
+margin-top: 20px;
+}
+.padding30px{
+padding: 20px;
+}
+.padding10px{
+  display: grid;
+  gap: 1rem;
+  padding: 10px;
+  }
+.capsula-contenido{
+padding: 40px;
+}
+.fondo-tarjeta{
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+.fondo-tarjeta-pro{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+/*............................... */
+.imagen{
+  height: 250px;
+  width: 250px;
+
+  display: flex;
+}
+.imagen img{
+  height: 100%;
+  width: 100%;
+}
+.tar-etiq-cont{
+justify-content: right;
+display: flex;
+}
+.fondo-tarjeta-pro span{
+transform: rotate(90deg);
+position: absolute;
+margin-top: 15px;
+padding: 3px 10px 3px 10px;
+font-weight: 100;
+color: rgb(253, 253, 253);
+font-size: 14px;
+background-color: rgba(44, 44, 44, 0.908);
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+border-radius: 0px 4px 4px 0px;
+
+}
+.flex{
+display: flex;
+}
+.right{
+text-align: right;
+}
+.right i,
+.right h5{
+  font-weight: 700;
+  color: #fa6338;
+}
+.cont-fl{
+  width: 100%;
+  justify-content: center;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.eti-pre{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.eti-pre h4{
+text-align: right;
+}
+.eti-pre h5{
+  text-align: center;
+background-color: #d4d3d3;
+}
+
+.pagination{
+gap: 0.5rem;
+margin-top: 3rem;
+justify-content: center;
+display: flex;
+}
+.pagination a{
+color: #fa6338;
+}
+.pagination li{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 50%;
+}
